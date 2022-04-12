@@ -26,7 +26,7 @@ def addNumbers():
         "b": b,
         "total": (a+b)
     }
-    
+
     return result
 
 # subtract info
@@ -46,8 +46,6 @@ def subtractNumbers():
 # multiply info
 @app.route("/multiply")
 def multiplyNumbers():
-    # There is a problem here please, fix and test.
-    # Fix and test this.
     a = int(request.args["a"])
     b = (request.args["b"])
 
@@ -68,8 +66,6 @@ def divideNumbers():
     result = {
         "a": a,
         "b": b,
-        # There is a problem here please, fix and test.
-        # Fix and test this.
         "factor": (a/0) 
     }
 
