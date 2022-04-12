@@ -26,7 +26,7 @@ def addNumbers():
         "b": b,
         "total": (a+b)
     }
-
+    
     return result
 
 # subtract info

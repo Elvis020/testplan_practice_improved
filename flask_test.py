@@ -1,6 +1,6 @@
 import sys
 
-from testplan import test_plan
+from flask_test import test_plan
 from testplan.testing.multitest import MultiTest, testcase, testsuite
 
 @testsuite
@@ -33,7 +33,7 @@ class CalculatorSuite(object):
     @testcase
     def basic_divide(self, env, result):
         print("Client sent a GET request to /divide")
-        env.http_client.get(api="/divide?a=100&b=50")
+        env.http_client.get(api="/divide?a=100.00&b=50")
         response = env.http_client.receive().json()
         product = int(response["factor"])
         result.equal(2, product, "Assert if division endpoint is working well.")
