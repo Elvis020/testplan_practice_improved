@@ -25,7 +25,7 @@ To test the project, create a new shell instance and use the commands below with
 ```
 
 **User Beware!!**
-There are some intentional mistakes in the 'flask_test.py'. find them and fix them.
+- [x] There are some intentional mistakes in the 'flask_test.py'. find them and fix them.
 
 # Testing ...
 A simple way to test the endpoints would be to visit the following endpoints via the browser or postman.
@@ -34,14 +34,15 @@ A simple way to test the endpoints would be to visit the following endpoints via
 
 [![Subtraction](https://img.shields.io/badge/Route-Subtract-white)](http://127.0.0.1:5000/subtract?a=100&b=45 )
 
+
 [![Multiplication](https://img.shields.io/badge/Route-Multiply-white)](http://127.0.0.1:5000/multiply?a=100&b=45 )
 
 [![Division](https://img.shields.io/badge/Route-Division-white)](http://127.0.0.1:5000/divide?a=100&b=45 )
 
-# Challenge ...
+# Challenges completed
 Create endpoints for the current Flask project, that perform the following arithmetic operations.
-* [Modulo Operation](https://en.wikipedia.org/wiki/Modulo_operation)
-* [Math Exponent](https://www.tutorialspoint.com/python/number_exp.htm)
-* [Natural Log](https://en.wikipedia.org/wiki/Natural_logarithm)
+- [x] [Modulo Operation](https://en.wikipedia.org/wiki/Modulo_operation)
+- [x] [Math Exponent](https://www.tutorialspoint.com/python/number_exp.htm)
+- [x] [Natural Log](https://en.wikipedia.org/wiki/Natural_logarithm)
 
 In accordance to Test Driven Development(TDD), please create tests to verify the validity of the various operations, before creating the endpoints.
